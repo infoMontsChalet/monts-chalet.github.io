@@ -1,9 +1,20 @@
 ---
-title: "About"
+pagetitle: "Monts-Chalet"
 ---
 
-About this site
+::: {.content-visible when-profile="en"}
+```{=html}
+<iframe width="780" height="500" src="https://calendar.google.com/calendar/u/0/embed?height=300&wkst=7&bgcolor=%23ffffff&ctz=Europe/Zurich&src=MmxpbjBjOXJwYmxkODFqZjQ4a3JvdW41bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23272e38&showPrint=0&showTz=0&showCalendars=0&showTitle=0&showNav=1&showDate=1&showTabs=0&hl=en" title="Calendar of l'Appartement by Monts-Chalet"></iframe>
+```
+:::
 
-```{r}
-1 + 1
+
+::: {.content-visible when-profile="fr"}
+```{=html}
+<iframe width="780" height="500" src="https://calendar.google.com/calendar/u/0/embed?height=300&wkst=7&bgcolor=%23ffffff&ctz=Europe/Zurich&src=MmxpbjBjOXJwYmxkODFqZjQ4a3JvdW41bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23272e38&showPrint=0&showTz=0&showCalendars=0&showTitle=0&showNav=1&showDate=1&showTabs=0&hl=fr" title="Calendrier de l'Appartement by Monts-Chalet"></iframe>
+```
+:::
+
+```{=html}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1264.5805936825273!2d7.157278010725001!3d46.3554709658846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478eeb6ea8cef65f%3A0x3bfe50039275c58d!2sMonts-Chalet!5e1!3m2!1sen!2sch!4v1750169987296!5m2!1sen!2sch" width="780" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 ```
