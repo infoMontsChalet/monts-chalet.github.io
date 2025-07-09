@@ -3,7 +3,7 @@ pagetitle: "Monts-Chalet"
 ---
 
 ::: {.content-visible when-profile="en"}
-## Welcome in Monts-Chalet {style="text-align: center"}
+## Welcome in Monts-Chalet
 
 Located in the heart of the Alpes Vaudoises in the village of Les Diablerets, Monts-Chalet has a full of light panoramic view of the Diablerets glacier, the Meilleret ski sector and the famous Tour d’Aï and Tour de Mayen.
 
@@ -11,7 +11,7 @@ The chalet offers tranquility and comfort and is easy to access. It includes one
 :::
 
 ::: {.content-visible when-profile="fr"}
-## Bienvenue à Monts-Chalet {style="text-align: center"}
+## Bienvenue à Monts-Chalet
 
 Monts-Chalet est un chalet situé au cœur des Alpes Vaudoises dans le village des Diablerets. Orienté sud, celui-ci offre une vue panoramique sur le glacier des Diablerets, le domaine de Meilleret et les tours d’Aï et de Mayen.
 
@@ -19,7 +19,7 @@ Le chalet offre tranquillité et confort et est facile d’accès. Il dispose d'
 :::
 
 ```{=html}
-<div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel" align="center">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -68,7 +68,7 @@ Le chalet offre tranquillité et confort et est facile d’accès. Il dispose d'
 ```
 
 ::: {.content-visible when-profile="en"}
-## L'Appartement by Monts-Chalet {style="text-align: center"}
+## L'Appartement by Monts-Chalet
 
 The apartment is located on the ground floor of Monts-Chalet and can accomodate up to 5 people. It offers a cozy living room organized in three zones: an modern and fully equipped open kitchen; a large dining table and a lounge area that comfortably accommodates all guests.
 
@@ -77,7 +77,7 @@ Sheets and household linen are provided.
 :::
 
 ::: {.content-visible when-profile="fr"}
-## L'Appartement by Monts-Chalet {style="text-align: center"}
+## L'Appartement by Monts-Chalet
 
 L'appartement en location se trouve à l'étage inférieur de Monts-Chalet et peut accueillir jusqu'à 5 personnes. Il dispose d'une chaleureuse pièce à vivre organisée en trois îlots : une cuisine ouverte, moderne et entièrement équipée; une large table pour dîner et un coin salon qui permet d’accueillir confortablement tous les convives.
 

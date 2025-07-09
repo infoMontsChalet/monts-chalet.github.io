@@ -12,10 +12,12 @@ website:
         href: index.qmd
       - text: "Les Diablerets"
         href: lesdiablerets.qmd
-      - text: "À propos"
-        href: about.qmd
+      - text: "L'Appartment"
+        href: appartment.qmd
       - text: "Gallerie"
         href: gallery.qmd
+      - text: "À propos"
+        href: about.qmd
     right:
       - text: "{{< fa language size=2xl >}}"
         menu:
@@ -24,6 +26,11 @@ website:
           - href: ../en/index.html
             text: "English"
   favicon: images/favicon.png
+  page-footer:
+    left: "Ch. de la Vuarnaz 5, 1865 Les Diablerets, Switzerland"
+    center: "© 2025 Monts-Chalet"
+    right: "email: <a href = 'mailto:info@monts-chalet.ch?subject=Demande de location Monts-Chalet'>info@monts-chalet.ch</a>"
+    background: "#1A1A1A"
 
 lang: fr
 
