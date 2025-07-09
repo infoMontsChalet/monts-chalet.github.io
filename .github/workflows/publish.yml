@@ -1,39 +1,64 @@
-on:
-  workflow_dispatch:
-  push:
-    branches: main
+name: Quarto Render and deploy rendered html to github pages
 
-name: Quarto Publish
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - '**.qmd'
+      - '**.md'
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+    paths:
+      - '**.qmd'
+      - '**.md'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build-deploy:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Check out repository
+      - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render and Publish (en)
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Render Quarto Project Profile Def
+        uses: quarto-dev/quarto-actions/render@v2
+        env:
+          QUARTO_PROFILE: def
+        with:
+          to: html 
+      - name: Render Quarto Project Profile en
+        uses: quarto-dev/quarto-actions/render@v2
         env:
           QUARTO_PROFILE: en
         with:
-          to: html
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Render and Publish (fr)
-        uses: quarto-dev/quarto-actions/publish@v2
+          to: html 
+      - name: Render Quarto Project Profile fr
+        uses: quarto-dev/quarto-actions/render@v2
         env:
           QUARTO_PROFILE: fr
         with:
-          to: html
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          to: html 
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

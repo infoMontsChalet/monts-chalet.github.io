@@ -21,10 +21,10 @@ website:
     right:
       - text: "{{< fa language size=2xl >}}"
         menu:
-          - href: ../fr/index.html
-            text: "Français"
           - href: ../en/index.html
             text: "English"
+          - href: ../fr/index.html
+            text: "Français"
   favicon: images/favicon.png
   page-footer:
     left: "Ch. de la Vuarnaz 5, 1865 Les Diablerets, Switzerland"
