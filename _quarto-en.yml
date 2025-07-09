@@ -1,5 +1,5 @@
 project:
-  output-dir: ./_site/en
+  output-dir: ./_docs/en
 
 website:
   title: "Monts-Chalet"
