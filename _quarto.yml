@@ -1,7 +1,8 @@
 project:
   type: website
+  output-dir: ./docs
 
 profile:
   default: en
   group: 
-    - [en, fr]
+    - [def, en, fr]
