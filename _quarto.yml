@@ -1,7 +1,10 @@
 project:
   type: website
 
+execute:
+  freeze: auto
+
 profile:
   default: en
   group: 
-    - [en, fr]
+    - [def, en, fr]
