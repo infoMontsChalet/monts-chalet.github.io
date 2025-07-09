@@ -22,7 +22,7 @@ jobs:
         env:
           QUARTO_PROFILE: en
         with:
-          target: gh-pages
+          to: html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -31,6 +31,15 @@ jobs:
         env:
           QUARTO_PROFILE: fr
         with:
-          target: gh-pages
+          to: html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
