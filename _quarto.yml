@@ -1,8 +1,7 @@
 project:
   type: website
-  output-dir: ./_site
 
 profile:
   default: en
   group: 
-    - [def, en, fr]
+    - [en, fr]
