@@ -5,5 +5,5 @@ execute:
   freeze: auto
 
 profile:
-  group: 
+  group:
     - [en, fr]

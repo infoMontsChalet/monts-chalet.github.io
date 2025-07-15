@@ -33,7 +33,7 @@ website:
     right: "email: <a href = 'mailto:info@monts-chalet.ch?subject=Monts-Chalet Rental Request'>info@monts-chalet.ch</a>"
     background: "#1A1A1A"
 
-lang: en
+lang: fr
 
 format:
   html:
