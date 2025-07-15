@@ -26,7 +26,6 @@ jobs:
           QUARTO_PROFILE: en
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          to: html
           target: gh-pages
 
       - name: Render Quarto Project Profile fr
@@ -35,7 +34,6 @@ jobs:
           QUARTO_PROFILE: fr
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          to: html
           target: gh-pages
 
       - name: Setup Pages
