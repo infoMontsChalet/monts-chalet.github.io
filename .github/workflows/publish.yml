@@ -1,37 +1,39 @@
-name: Quarto Publish on GitHub Pages
+name: Quarto publish github pages
 
 on:
   workflow_dispatch:
   push:
     branches: main
 
-permissions:
-   contents: write
-   pages: write
-   id-token: write
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
-      - name: Check out repository
+      - name: Checkout repo
         uses: actions/checkout@v4
-
+    
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-
+        
       - name: Render Quarto Project Profile en
         uses: quarto-dev/quarto-actions/render@v2
         env:
           QUARTO_PROFILE: en
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Render Quarto Project Profile fr
         uses: quarto-dev/quarto-actions/render@v2
         env:
           QUARTO_PROFILE: fr
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
