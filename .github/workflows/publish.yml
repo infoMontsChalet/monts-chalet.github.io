@@ -6,31 +6,39 @@ on:
 name: Quarto Publish
 
 jobs:
-  build-deploy:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Check out repository
+      - name: Checkout
         uses: actions/checkout@v4
-
+ 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render and Publish EN
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-          render: false
+      - name: Render Quarto Project Profile EN
+        uses: quarto-dev/quarto-actions/render@v2
         env:
           QUARTO_PROFILE: en
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Render and Publish FR
-        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: gh-pages
-          render: false
+          to: html
+
+      - name: Render Quarto Project Profile FR
+        uses: quarto-dev/quarto-actions/render@v2
         env:
           QUARTO_PROFILE: fr
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          to: html
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
