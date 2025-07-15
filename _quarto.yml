@@ -1,0 +1,9 @@
+project:
+  type: website
+
+execute:
+  freeze: auto
+
+profile:
+  group: 
+    - [en, fr]

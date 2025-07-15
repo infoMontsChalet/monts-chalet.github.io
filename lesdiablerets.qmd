@@ -1,0 +1,49 @@
+---
+pagetitle: "Monts-Chalet"
+---
+
+::: {.content-visible when-profile="en"}
+## The Village
+
+Nestled at 1200 meters in the heart of the Alpes Vaudoises, Les Diablerets is an authentic mountain village located at the foot of an imposing mountain range and topped with a majestic glacier.
+
+Consisting entirely of chalets, this charming village has managed to maintain its heritage while developing. During the winter and summer, the main road at the village is fully accessible to pedestrians, making it possible to enjoy this typical atmosphere in total peace. Walkers can enjoy exceptional moments strolling along the river.
+
+The facilities offered by Les Diablerets are especially suited to conferences. A Conference Centre located in the middle of the village is ideal for hosting large events, such as an Alpine film festival (the FIFAD), and offers an ideal infrastructure for hosting groups and conferences.
+
+For more informations about the activities in Les Diablerets, please visit [Alpes Vaudoises > Les Diablerets](https://www.alpesvaudoises.ch/en/Z76/les-diablerets/diablerets)
+
+
+## The Glacier
+
+The proximity of the Diablerets Glacier (Glacier 3000) allows visitors to combine activities on the glacier with other activities offered in the resort, throughout the year. Skiing is guaranteed from November to May and thrill seekers will be delighted with the famous black run – the “Combe d’Audon” or the Snow Park.
+
+During the summer season, the glacier offers the Alpine Coaster, one of the highest bob sled run on rails in Europe as well as other activities such as trips in the snow bus, excursions with dog sleds. You can also enjoy various routes of the Via Ferrata from the Pillon pass.
+
+The glacier is home to the Peak Walk, the first high altitude bridge in the world linking two peaks. More than 100 metres span, and with stunning views of more than 24 summits that exceed 4000 metres, accessible to all glacier visitors all year round.
+
+For more informations about the activities in Glacier 3000, please visit [Glacier 3000 > EN](https://www.glacier3000.ch/en)
+:::
+
+::: {.content-visible when-profile="fr"}
+## Le Village
+
+Blotti à 1200 mètres d’altitude au cœur des Alpes Vaudoises, Les Diablerets est un authentique village de montagne situé au pied d’un imposant massif montagneux et coiffé d’un majestueux glacier.
+
+Entièrement constitué de chalets, le village jouit d’un grand cachet et a su se développer tout en préservant son patrimoine. Pendant les saisons d’hiver et d’été, la rue principale se transforme en Espace Convivial et permet ainsi de profiter de cette atmosphère typique en toute tranquillité.
+
+Les balades le long de la rivière plongent les promeneurs hors du temps. Loin de tout stress urbain, Les Diablerets se trouvent pourtant à seulement 120 kilomètres de l'aéroport de Genève et à moins de 40 kilomètres de Montreux.
+
+Retrouver plus d'informations sur les activitées proposées aux Diablerets sur [Alpes Vaudoises > Les Diablerets](https://www.alpesvaudoises.ch/fr/Z76/les-diablerets/destination-diablerets)
+
+
+## Le Glacier
+
+La proximité du glacier des Diablerets, ou Glacier 3000, permet aux visiteurs de combiner les activités sur le glacier aux autres activités proposées dans la station, tout au long de l’année. Au glacier, le ski est garanti de novembre à mai.
+
+Pendant la saison d’été, le glacier propose l’Alpine Coaster, une des plus haute piste de luge sur rails d’Europe.
+
+Le glacier abrite également le Peak Walk, premier pont suspendu au monde reliant 2 sommets. La passerelle, d'une longueur de 108 mètre, permet aux visiteurs de découvrir plus de 24 sommets de plus de 4000 mètres
+
+Retrouver plus d'informations sur les activitées proposées au Glacier 3000 sur [Glacier 3000 > FR](https://www.glacier3000.ch/fr)
+:::

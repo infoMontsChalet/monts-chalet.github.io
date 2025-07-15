@@ -1,0 +1,89 @@
+---
+pagetitle: "Monts-Chalet"
+---
+
+::: {.content-visible when-profile="en"}
+## Description
+
+Located at the lower floor of the chalet, the apartment can accommodate up to 5 people. It is built as follows:
+
+-   1 spacious living room with sitting area, dining area and fully equipped open kitchen
+-   1 bedroom with a double bed
+-   1 bedroom with bunk beds for 3 persons
+-   1 bathroom with a bathtub and a double washbasin
+-   1 separate toilet
+-   1 laundry room with a washing machine and a dryer
+-   1 large terrace
+-   1 ski room with a boot dryer, sledges and snowshoes
+-   1 indoor parking slot and outside parking spaces
+
+## Rental
+
+The apartment is available to rent on a weekly basis from Saturday to Saturday for Christmas, New Year and during peak season, or for at least 3 nights during the mid-peak season and at least 2 days during the off-peak season. Feel free to contact us for any other specific request.
+
+The rental rates are:
+
+-   Christmas or New Year's weeks: CHF 3200
+-   Week during the peak season: CHF 2400
+-   Week during the mid-peak season: CHF 2000
+-   Week during the off-peak season: CHF 1600
+
+Rates include all utilities, including linens, bed linens, and bath linens. End-of-stay cleaning is included, but we reserve the right for a surcharge in the event of excessive use.
+
+Additional services can be provided upon request such as catering, laundry and daily cleaning, delivery of skis and passes to the chalet, daily newspapers, childcare.
+
+Pets are not allowed.
+
+A deposit of CHF 500 will be required.
+
+You will find current availabilities under the following shared calendar
+
+```{=html}
+<p align="center"><iframe width="70%" height="450" src="https://calendar.google.com/calendar/u/0/embed?height=300&wkst=7&bgcolor=%23ffffff&ctz=Europe/Zurich&src=MmxpbjBjOXJwYmxkODFqZjQ4a3JvdW41bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23272e38&showPrint=0&showTz=0&showCalendars=0&showTitle=0&showNav=1&showDate=1&showTabs=0&hl=en" title="Calendar of l'Appartement by Monts-Chalet"></iframe></p>
+```
+
+Please submit your rental request or request for information to <a href = "mailto:info@monts-chalet.ch?subject=Monts-Chalet Rental Request">info\@monts-chalet.ch</a>
+:::
+
+::: {.content-visible when-profile="fr"}
+## Description
+
+L'appartement d'une capacité de 5 personnes se trouve au rez-inférieur du chalet et se présente comme suit:
+
+-   1 spacieuse pièce à vivre avec coin salon, espace salle à manger et cuisine ouverte entièrement équipée
+-   1 chambre avec lit double
+-   1 chambre avec lits superposés pour 3 couchages
+-   1 SDB avec baignoire et double vasque
+-   1 WC séparé
+-   1 buanderie avec lave-linge et sèche-linge
+-   1 grande terrasse
+-   1 local à skis avec sèche-chaussures, luges et raquettes
+-   1 place de parc couverte et places extérieures
+
+## La location
+
+L'appartement se loue à la semaine du samedi au samedi pour Noël, la Nouvelle Année et en haute saison, à partir de 3 nuits en moyenne saison et à partir de 2 nuits le reste de l'année. N'hésitez pas à nous contacter pour toute autre demande spécifique.
+
+Les tarifs de locations sont:
+
+-   Semaine de Noël et de la Nouvelle Année: CHF 3200
+-   Semaine en haute saison (Février/Mars): CHF 2400
+-   Semaine en moyenne saison (Janvier, Juillet/Août): CHF 2000
+-   Semaine en basse saison: CHF 1650
+
+Les tarifs comprennent toutes les charges, le prêt du linge de maison, de lit et de bain. Le ménage en fin de séjour est compris mais nous nous réservons le droit de facturer un supplément en cas d'abus.
+
+Nous pouvons fournir des services additionels sur demande tels que traiteur, blanchisserie et ménage quotidien, livraison des skis et forfaits au chalet, journaux quotidiens, prise en charge des enfants.
+
+Les animaux de compagnie ne sont pas admis.
+
+Une caution de CHF 500 vous sera demandée.
+
+Vous trouverez les disponibilités dans le présent calendrier:
+
+```{=html}
+<p align="center"><iframe width="780" height="450" src="https://calendar.google.com/calendar/u/0/embed?height=300&wkst=7&bgcolor=%23ffffff&ctz=Europe/Zurich&src=MmxpbjBjOXJwYmxkODFqZjQ4a3JvdW41bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23272e38&showPrint=0&showTz=0&showCalendars=0&showTitle=0&showNav=1&showDate=1&showTabs=0&hl=fr" title="Calendrier de l'Appartement by Monts-Chalet"></iframe></p>
+```
+
+Merci de faire votre demande de location ou de renseignement à <a href = "mailto:info@monts-chalet.ch?subject=Demande de location Monts-Chalet">info\@monts-chalet.ch</a>
+:::

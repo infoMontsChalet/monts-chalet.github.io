@@ -1,0 +1,46 @@
+project:
+  output-dir: _site/en
+
+website:
+  title: "Monts-Chalet"
+  search: false
+  navbar:
+    title: false
+    logo: images/logoWithName.png
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Les Diablerets"
+        href: lesdiablerets.qmd
+      - text: "The Appartment"
+        href: appartment.qmd
+      - text: "Gallery"
+        href: gallery.qmd
+      - text: "About"
+        href: about.qmd
+
+    right:
+      - text: "{{< fa language size=2xl >}}"
+        menu:
+          - href: ../fr/index.html
+            text: "Français"
+          - href: ../en/index.html
+            text: "English"
+  favicon: images/favicon.png
+  page-footer:
+    left: "Ch. de la Vuargnaz 5, 1865 Les Diablerets, Switzerland"
+    center: "© 2025 Monts-Chalet"
+    right: "email: <a href = 'mailto:info@monts-chalet.ch?subject=Monts-Chalet Rental Request'>info@monts-chalet.ch</a>"
+    background: "#1A1A1A"
+
+lang: en
+
+format:
+  html:
+    theme:
+      - lux
+      - custom.scss
+    css: styles.css
+    toc: false
+    page-layout: full
+    anchor-sections: false
