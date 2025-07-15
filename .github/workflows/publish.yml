@@ -22,7 +22,6 @@ jobs:
         with:
           target: gh-pages
           render: false
-          path: ./en
         env:
           QUARTO_PROFILE: en
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -32,7 +31,6 @@ jobs:
         with:
           target: gh-pages
           render: false
-          path: ./fr
         env:
           QUARTO_PROFILE: fr
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
