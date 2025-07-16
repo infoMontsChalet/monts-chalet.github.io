@@ -39,7 +39,7 @@ A deposit of CHF 500 will be required.
 You will find current availabilities under the following shared calendar
 
 ```{=html}
-<p align="center"><iframe width="70%" height="450" src="https://calendar.google.com/calendar/u/0/embed?height=300&wkst=7&bgcolor=%23ffffff&ctz=Europe/Zurich&src=MmxpbjBjOXJwYmxkODFqZjQ4a3JvdW41bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23272e38&showPrint=0&showTz=0&showCalendars=0&showTitle=0&showNav=1&showDate=1&showTabs=0&hl=en" title="Calendar of l'Appartement by Monts-Chalet"></iframe></p>
+<p align="center"><iframe width="85%" height="450" src="https://calendar.google.com/calendar/u/0/embed?height=300&wkst=7&bgcolor=%23ffffff&ctz=Europe/Zurich&src=MmxpbjBjOXJwYmxkODFqZjQ4a3JvdW41bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23272e38&showPrint=0&showTz=0&showCalendars=0&showTitle=0&showNav=1&showDate=1&showTabs=0&hl=en" title="Calendar of l'Appartement by Monts-Chalet"></iframe></p>
 ```
 
 Please submit your rental request or request for information to <a href = "mailto:info@monts-chalet.ch?subject=Monts-Chalet Rental Request">info\@monts-chalet.ch</a>
@@ -82,7 +82,7 @@ Une caution de CHF 500 vous sera demandée.
 Vous trouverez les disponibilités dans le présent calendrier:
 
 ```{=html}
-<p align="center"><iframe width="780" height="450" src="https://calendar.google.com/calendar/u/0/embed?height=300&wkst=7&bgcolor=%23ffffff&ctz=Europe/Zurich&src=MmxpbjBjOXJwYmxkODFqZjQ4a3JvdW41bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23272e38&showPrint=0&showTz=0&showCalendars=0&showTitle=0&showNav=1&showDate=1&showTabs=0&hl=fr" title="Calendrier de l'Appartement by Monts-Chalet"></iframe></p>
+<p align="center"><iframe width="85%" height="450" src="https://calendar.google.com/calendar/u/0/embed?height=300&wkst=7&bgcolor=%23ffffff&ctz=Europe/Zurich&src=MmxpbjBjOXJwYmxkODFqZjQ4a3JvdW41bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23272e38&showPrint=0&showTz=0&showCalendars=0&showTitle=0&showNav=1&showDate=1&showTabs=0&hl=fr" title="Calendrier de l'Appartement by Monts-Chalet"></iframe></p>
 ```
 
 Merci de faire votre demande de location ou de renseignement à <a href = "mailto:info@monts-chalet.ch?subject=Demande de location Monts-Chalet">info\@monts-chalet.ch</a>

@@ -30,5 +30,5 @@ Monts-Chalet est situé au:
 :::
 
 ```{=html}
-<p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2753.705356280251!2d7.154655813178799!3d46.35539187098203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478eeb6ea8cef65f%3A0x3bfe50039275c58d!2sMonts-Chalet!5e0!3m2!1sen!2sch!4v1752047709316!5m2!1sen!2sch" width="70%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+<p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2753.705356280251!2d7.154655813178799!3d46.35539187098203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478eeb6ea8cef65f%3A0x3bfe50039275c58d!2sMonts-Chalet!5e0!3m2!1sen!2sch!4v1752047709316!5m2!1sen!2sch" width="85%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
 ```
