@@ -19,7 +19,7 @@ Monts-Chalet is located at:
 ::: {.content-visible when-profile="fr"}
 ## Contact
 
-Please submit your rental request or request for information to <a href = "mailto:info@monts-chalet.ch?subject=Monts-Chalet Rental Request">info@monts-chalet.ch</a>.
+Merci de faire votre demande de location ou de renseignement à <a href = "mailto:info@monts-chalet.ch?subject=Demande de location Monts-Chalet">info\@monts-chalet.ch</a>
 
 ## Adresse
 

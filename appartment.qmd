@@ -36,7 +36,7 @@ Pets are not allowed.
 
 A deposit of CHF 500 will be required.
 
-You will find current availabilities under the following shared calendar
+You will find current availabilities in the following shared calendar
 
 ```{=html}
 <p align="center"><iframe width="85%" height="450" src="https://calendar.google.com/calendar/u/0/embed?height=300&wkst=7&bgcolor=%23ffffff&ctz=Europe/Zurich&src=MmxpbjBjOXJwYmxkODFqZjQ4a3JvdW41bHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23272e38&showPrint=0&showTz=0&showCalendars=0&showTitle=0&showNav=1&showDate=1&showTabs=0&hl=en" title="Calendar of l'Appartement by Monts-Chalet"></iframe></p>
@@ -69,7 +69,7 @@ Les tarifs de locations sont:
 -   Semaine de Noël et de la Nouvelle Année: CHF 3200
 -   Semaine en haute saison (Février/Mars): CHF 2400
 -   Semaine en moyenne saison (Janvier, Juillet/Août): CHF 2000
--   Semaine en basse saison: CHF 1650
+-   Semaine en basse saison: CHF 1600
 
 Les tarifs comprennent toutes les charges, le prêt du linge de maison, de lit et de bain. Le ménage en fin de séjour est compris mais nous nous réservons le droit de facturer un supplément en cas d'abus.
 

@@ -12,7 +12,7 @@ website:
         href: index.qmd
       - text: "Les Diablerets"
         href: lesdiablerets.qmd
-      - text: "The Appartment"
+      - text: "The Apartment"
         href: appartment.qmd
       - text: "Gallery"
         href: gallery.qmd

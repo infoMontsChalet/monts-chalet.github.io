@@ -12,9 +12,9 @@ website:
         href: index.qmd
       - text: "Les Diablerets"
         href: lesdiablerets.qmd
-      - text: "L'Appartment"
+      - text: "L'Appartement"
         href: appartment.qmd
-      - text: "Gallerie"
+      - text: "Galerie"
         href: gallery.qmd
       - text: "À propos"
         href: about.qmd

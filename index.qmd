@@ -3,7 +3,7 @@ pagetitle: "Monts-Chalet"
 ---
 
 ::: {.content-visible when-profile="en"}
-## Welcome in Monts-Chalet
+## Welcome to Monts-Chalet
 
 Located in the heart of the Alpes Vaudoises in the village of Les Diablerets, Monts-Chalet has a full of light panoramic view of the Diablerets glacier, the Meilleret ski sector and the famous Tour d’Aï and Tour de Mayen.
 
