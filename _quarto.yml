@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: _site
 
 execute:
   freeze: auto
@@ -7,4 +8,4 @@ execute:
 profile:
   default: en
   group:
-    - [def, en, fr]
+    - [en, fr]

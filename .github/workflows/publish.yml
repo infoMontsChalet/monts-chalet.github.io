@@ -23,13 +23,6 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render Quarto Project Profile EN
-        uses: quarto-dev/quarto-actions/render@v2
-        env:
-          QUARTO_PROFILE: en
-        with:
-          to: html
-
       - name: Render Quarto Project Profile DEF
         uses: quarto-dev/quarto-actions/render@v2
         env:

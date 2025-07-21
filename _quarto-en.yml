@@ -1,5 +1,5 @@
 project:
-  output-dir: _site/en
+  output-dir: _site
 
 website:
   title: "Monts-Chalet"
@@ -22,9 +22,9 @@ website:
     right:
       - text: "{{< fa language size=2xl >}}"
         menu:
-          - href: ../fr/index.html
+          - href: ../_site/fr/index.html
             text: "Français"
-          - href: ../en/index.html
+          - href: ../index.html
             text: "English"
   favicon: images/favicon.png
   page-footer:
