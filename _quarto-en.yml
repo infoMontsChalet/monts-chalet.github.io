@@ -22,7 +22,7 @@ website:
     right:
       - text: "{{< fa language size=2xl >}}"
         menu:
-          - href: ../_site/fr/index.html
+          - href: ../fr/index.html
             text: "Français"
           - href: ../index.html
             text: "English"
