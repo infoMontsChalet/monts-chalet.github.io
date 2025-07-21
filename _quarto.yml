@@ -8,4 +8,4 @@ execute:
 profile:
   default: en
   group:
-    - [en, fr]
+    - [def, en, fr]

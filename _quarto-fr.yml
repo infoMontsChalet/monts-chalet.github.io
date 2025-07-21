@@ -24,7 +24,7 @@ website:
         menu:
           - href: ../index.html
             text: "English"
-          - href: ../_site/fr/index.html
+          - href: ../fr/index.html
             text: "Français"
   favicon: images/favicon.png
   page-footer:
