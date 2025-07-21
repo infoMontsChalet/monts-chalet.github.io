@@ -22,9 +22,9 @@ website:
     right:
       - text: "{{< fa language size=2xl >}}"
         menu:
-          - href: ./index.html
+          - href: ../index.html
             text: "English"
-          - href: ./fr/index.html
+          - href: ../fr/index.html
             text: "Français"
   favicon: images/favicon.png
   page-footer:
