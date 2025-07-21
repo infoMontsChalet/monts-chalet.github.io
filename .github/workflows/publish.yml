@@ -30,6 +30,7 @@ jobs:
         with:
           to: html
 
+
       - name: Render Quarto Project Profile EN
         uses: quarto-dev/quarto-actions/render@v2
         env:
