@@ -22,9 +22,9 @@ website:
     right:
       - text: "{{< fa language size=2xl >}}"
         menu:
-          - href: ../monts-chalet.github.io/index.html
+          - href: ./monts-chalet.github.io/index.html
             text: "English"
-          - href: ../monts-chalet.github.io/fr/index.html
+          - href: ./monts-chalet.github.io/fr/index.html
             text: "Français"
   favicon: images/favicon.png
   page-footer:
