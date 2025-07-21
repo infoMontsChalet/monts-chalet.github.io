@@ -13,7 +13,7 @@ website:
       - text: "Les Diablerets"
         href: lesdiablerets.qmd
       - text: "The Apartment"
-        href: appartment.qmd
+        href: apartment.qmd
       - text: "Gallery"
         href: gallery.qmd
       - text: "About"
