@@ -23,10 +23,11 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # This single command automatically detects your group in _quarto.yml 
-      # and renders def, en, and fr sequentially without overwriting the _site folder.
-      - name: Render Quarto Project
-        run: quarto render
+      - name: Render English
+        run: quarto render --profile en
+
+      - name: Render French
+        run: quarto render --profile fr
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
