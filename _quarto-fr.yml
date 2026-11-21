@@ -16,6 +16,8 @@ website:
         href: apartment.qmd
       - text: "Galerie"
         href: gallery.qmd
+      - text: "Contact"
+        href: contact.qmd
       - text: "À propos"
         href: about.qmd
 

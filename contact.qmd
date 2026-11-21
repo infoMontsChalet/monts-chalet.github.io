@@ -1,0 +1,409 @@
+---
+pagetitle: "Monts-Chalet"
+# The form is delivered to your inbox by Web3Forms. Create a free access key at
+# https://web3forms.com with the address that should receive the requests, and paste it here.
+form-access-key: "56c28da1-7432-4aab-94a7-fe513ba8212c"
+---
+
+::: {.content-visible when-profile="en"}
+## Contact us
+
+Send us your preferred dates and any question about the apartment, and we will reply by email. Rates and availability are on [The Apartment](apartment.qmd) page.
+
+```{=html}
+<form id="mc-contact-form" class="mc-contact" action="https://api.web3forms.com/submit" method="POST"
+      data-night="night" data-nights="nights" data-sending="Sending…">
+
+  <input type="hidden" name="access_key" value="{{< meta form-access-key >}}">
+  <input type="hidden" name="subject" value="Monts-Chalet Rental Request">
+  <input type="hidden" name="from_name" value="Monts-Chalet">
+  <input type="hidden" name="redirect" value="https://web3forms.com/success">
+  <input type="checkbox" name="botcheck" class="mc-trap" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+  <div class="mc-fields grid">
+
+    <div class="g-col-12">
+      <label for="mc-name" class="form-label">Full name</label>
+      <input type="text" class="form-control" id="mc-name" name="name" autocomplete="name" maxlength="100" pattern=".*\S.*" required>
+      <div class="invalid-feedback">Enter your full name.</div>
+    </div>
+
+    <div class="g-col-12 g-col-md-6">
+      <label for="mc-email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="mc-email" name="email" autocomplete="email" maxlength="150" required>
+      <div class="invalid-feedback">Enter a valid email address, for example name@example.com.</div>
+    </div>
+
+    <div class="g-col-12 g-col-md-6">
+      <label for="mc-phone" class="form-label">Phone number</label>
+      <input type="tel" class="form-control" id="mc-phone" name="phone" autocomplete="tel" maxlength="25"
+             pattern="[0-9\s\+\-\.\(\)\/]{6,25}" aria-describedby="mc-phone-hint" required>
+      <div class="invalid-feedback">Enter your phone number using digits, for example +41&nbsp;79&nbsp;123&nbsp;45&nbsp;67.</div>
+      <div id="mc-phone-hint" class="form-text">With the country code, for example +41&nbsp;79&nbsp;123&nbsp;45&nbsp;67.</div>
+    </div>
+
+    <div class="g-col-12 g-col-md-6">
+      <label for="mc-check-in" class="form-label">Preferred check-in date</label>
+      <input type="date" class="form-control" id="mc-check-in" name="check_in" required>
+      <div class="invalid-feedback">Choose a check-in date from today onwards.</div>
+    </div>
+
+    <div class="g-col-12 g-col-md-6">
+      <label for="mc-check-out" class="form-label">Preferred check-out date</label>
+      <input type="date" class="form-control" id="mc-check-out" name="check_out" required>
+      <div class="invalid-feedback">Choose a check-out date after your check-in date.</div>
+      <div class="form-text mc-nights" data-mc="nights" aria-live="polite"></div>
+      <input type="hidden" name="nights" value="">
+    </div>
+
+    <fieldset class="g-col-12">
+      <legend class="form-label">Are your dates flexible?</legend>
+      <div class="mc-choices">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="mc-flex-no" name="flexible_dates" value="No" checked>
+          <label class="form-check-label" for="mc-flex-no">No</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="mc-flex-yes" name="flexible_dates" value="Yes, +/- 3 days">
+          <label class="form-check-label" for="mc-flex-yes">Yes, within ± 3 days</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset class="g-col-12">
+      <legend class="form-label">Number of guests</legend>
+      <div class="grid">
+        <div class="g-col-12 g-col-sm-4">
+          <label for="mc-adults" class="form-label mc-sub">Adults (13 years or more)</label>
+          <select class="form-select" id="mc-adults" name="adults">
+            <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option>
+          </select>
+        </div>
+        <div class="g-col-12 g-col-sm-4">
+          <label for="mc-children" class="form-label mc-sub">Children (2 to 12 years)</label>
+          <select class="form-select" id="mc-children" name="children">
+            <option selected>0</option><option>1</option><option>2</option><option>3</option><option>4</option>
+          </select>
+        </div>
+        <div class="g-col-12 g-col-sm-4">
+          <label for="mc-infants" class="form-label mc-sub">Infants (under 2 years)</label>
+          <select class="form-select" id="mc-infants" name="infants">
+            <option selected>0</option><option>1</option>
+          </select>
+        </div>
+      </div>
+      <div class="invalid-feedback" data-mc="guests-error" role="alert">The apartment sleeps up to 5 guests (adults and children). Reduce the number of adults or children.</div>
+      <div class="form-text">The apartment sleeps up to 5 guests.</div>
+    </fieldset>
+
+    <div class="g-col-12">
+      <label for="mc-message" class="form-label">Your question about the apartment <span class="mc-optional">(optional)</span></label>
+      <textarea class="form-control" id="mc-message" name="message" rows="5" maxlength="2000"></textarea>
+    </div>
+
+    <input type="hidden" name="language" value="English">
+
+    <div class="g-col-12">
+      <button type="submit" class="btn btn-primary">Send request</button>
+      <p class="form-text">We use your details only to answer your request.</p>
+      <div class="mc-status mc-status-error d-none" data-mc="error" role="alert">Your request could not be sent. Please try again, or write to us at <a href="mailto:info@monts-chalet.ch?subject=Monts-Chalet%20Rental%20Request">info@monts-chalet.ch</a>.</div>
+    </div>
+
+  </div>
+
+  <div class="mc-status d-none" data-mc="success" role="status" tabindex="-1">Thank you, your request has been sent. We will reply by email as soon as possible.</div>
+</form>
+```
+:::
+
+::: {.content-visible when-profile="fr"}
+## Nous contacter
+
+Indiquez-nous vos dates souhaitées et vos questions éventuelles sur l'appartement, et nous vous répondrons par e-mail. Les tarifs et les disponibilités se trouvent sur la page [L'Appartement](apartment.qmd).
+
+```{=html}
+<form id="mc-contact-form" class="mc-contact" action="https://api.web3forms.com/submit" method="POST"
+      data-night="nuit" data-nights="nuits" data-sending="Envoi en cours…">
+
+  <input type="hidden" name="access_key" value="{{< meta form-access-key >}}">
+  <input type="hidden" name="subject" value="Demande de location Monts-Chalet">
+  <input type="hidden" name="from_name" value="Monts-Chalet">
+  <input type="hidden" name="redirect" value="https://web3forms.com/success">
+  <input type="checkbox" name="botcheck" class="mc-trap" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+  <div class="mc-fields grid">
+
+    <div class="g-col-12">
+      <label for="mc-name" class="form-label">Nom et prénom</label>
+      <input type="text" class="form-control" id="mc-name" name="name" autocomplete="name" maxlength="100" pattern=".*\S.*" required>
+      <div class="invalid-feedback">Veuillez indiquer votre nom et votre prénom.</div>
+    </div>
+
+    <div class="g-col-12 g-col-md-6">
+      <label for="mc-email" class="form-label">Adresse e-mail</label>
+      <input type="email" class="form-control" id="mc-email" name="email" autocomplete="email" maxlength="150" required>
+      <div class="invalid-feedback">Veuillez saisir une adresse e-mail valide, par exemple nom@exemple.com.</div>
+    </div>
+
+    <div class="g-col-12 g-col-md-6">
+      <label for="mc-phone" class="form-label">Numéro de téléphone</label>
+      <input type="tel" class="form-control" id="mc-phone" name="phone" autocomplete="tel" maxlength="25"
+             pattern="[0-9\s\+\-\.\(\)\/]{6,25}" aria-describedby="mc-phone-hint" required>
+      <div class="invalid-feedback">Veuillez saisir votre numéro en chiffres, par exemple +41&nbsp;79&nbsp;123&nbsp;45&nbsp;67.</div>
+      <div id="mc-phone-hint" class="form-text">Avec l’indicatif du pays, par exemple +41&nbsp;79&nbsp;123&nbsp;45&nbsp;67.</div>
+    </div>
+
+    <div class="g-col-12 g-col-md-6">
+      <label for="mc-check-in" class="form-label">Date d’arrivée souhaitée</label>
+      <input type="date" class="form-control" id="mc-check-in" name="check_in" required>
+      <div class="invalid-feedback">Veuillez choisir une date d’arrivée à partir d’aujourd’hui.</div>
+    </div>
+
+    <div class="g-col-12 g-col-md-6">
+      <label for="mc-check-out" class="form-label">Date de départ souhaitée</label>
+      <input type="date" class="form-control" id="mc-check-out" name="check_out" required>
+      <div class="invalid-feedback">Veuillez choisir une date de départ postérieure à la date d’arrivée.</div>
+      <div class="form-text mc-nights" data-mc="nights" aria-live="polite"></div>
+      <input type="hidden" name="nights" value="">
+    </div>
+
+    <fieldset class="g-col-12">
+      <legend class="form-label">Vos dates sont-elles flexibles?</legend>
+      <div class="mc-choices">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="mc-flex-no" name="flexible_dates" value="No" checked>
+          <label class="form-check-label" for="mc-flex-no">Non</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="mc-flex-yes" name="flexible_dates" value="Yes, +/- 3 days">
+          <label class="form-check-label" for="mc-flex-yes">Oui, à ± 3 jours près</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset class="g-col-12">
+      <legend class="form-label">Nombre de personnes</legend>
+      <div class="grid">
+        <div class="g-col-12 g-col-sm-4">
+          <label for="mc-adults" class="form-label mc-sub">Adultes (13 ans et plus)</label>
+          <select class="form-select" id="mc-adults" name="adults">
+            <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option>
+          </select>
+        </div>
+        <div class="g-col-12 g-col-sm-4">
+          <label for="mc-children" class="form-label mc-sub">Enfants (2 à 12 ans)</label>
+          <select class="form-select" id="mc-children" name="children">
+            <option selected>0</option><option>1</option><option>2</option><option>3</option><option>4</option>
+          </select>
+        </div>
+        <div class="g-col-12 g-col-sm-4">
+          <label for="mc-infants" class="form-label mc-sub">Bébés (moins de 2 ans)</label>
+          <select class="form-select" id="mc-infants" name="infants">
+            <option selected>0</option><option>1</option>
+          </select>
+        </div>
+      </div>
+      <div class="invalid-feedback" data-mc="guests-error" role="alert">L’appartement peut accueillir jusqu’à 5 personnes (adultes et enfants). Veuillez réduire le nombre d’adultes ou d’enfants.</div>
+      <div class="form-text">L’appartement peut accueillir jusqu’à 5 personnes.</div>
+    </fieldset>
+
+    <div class="g-col-12">
+      <label for="mc-message" class="form-label">Votre question sur l’appartement <span class="mc-optional">(facultatif)</span></label>
+      <textarea class="form-control" id="mc-message" name="message" rows="5" maxlength="2000"></textarea>
+    </div>
+
+    <input type="hidden" name="language" value="Français">
+
+    <div class="g-col-12">
+      <button type="submit" class="btn btn-primary">Envoyer la demande</button>
+      <p class="form-text">Vos coordonnées servent uniquement à répondre à votre demande.</p>
+      <div class="mc-status mc-status-error d-none" data-mc="error" role="alert">Votre demande n’a pas pu être envoyée. Veuillez réessayer ou nous écrire à <a href="mailto:info@monts-chalet.ch?subject=Demande%20de%20location%20Monts-Chalet">info@monts-chalet.ch</a>.</div>
+    </div>
+
+  </div>
+
+  <div class="mc-status d-none" data-mc="success" role="status" tabindex="-1">Merci, votre demande a bien été envoyée. Nous vous répondrons par e-mail dans les meilleurs délais.</div>
+</form>
+```
+:::
+
+```{=html}
+<style>
+  .mc-contact { max-width: 46rem; margin: 2rem 0 3rem; }
+  .mc-contact .mc-trap { display: none; }
+
+  /* Labels in the heading colour, hints in the body colour */
+  .mc-contact .form-label { color: #1a1a1a; font-weight: 600; }
+  .mc-contact legend.form-label { float: none; width: auto; font-size: inherit; }
+  .mc-contact .form-label.mc-sub,
+  .mc-contact .mc-optional { color: #55595c; font-weight: 400; }
+  .mc-contact .form-text { color: #55595c; }
+  .mc-contact .mc-nights:empty,
+  .mc-contact .is-invalid ~ .form-text,
+  .mc-contact .invalid-feedback.d-block ~ .form-text { display: none; }
+
+  /* Radio buttons side by side */
+  .mc-contact .mc-choices { display: flex; flex-wrap: wrap; gap: 0.5rem 2rem; }
+  .mc-contact .form-check { display: flex; align-items: center; gap: 0.6rem; margin: 0; padding: 0; }
+  .mc-contact .form-check-input { float: none; flex: none; margin: 0; width: 1.15em; height: 1.15em; }
+  .mc-contact .form-check-input:not(:checked) { border-color: #8c8c8c; }
+
+  /* Focus ring (recent Quarto versions add the same one to the whole site) */
+  .mc-contact .form-control:focus-visible,
+  .mc-contact .form-select:focus-visible,
+  .mc-contact .form-check-input:focus-visible,
+  .mc-contact .btn:focus-visible { outline: 2px solid #1a1a1a; outline-offset: 2px; }
+  .mc-contact .form-control,
+  .mc-contact .form-select,
+  .mc-contact .mc-status { scroll-margin-top: 12rem; } /* stay clear of the fixed navigation bar */
+
+  /* "Sent" and "not sent" messages */
+  .mc-contact .mc-status { margin-top: 1rem; padding: 1rem 1.5rem; border-left: 4px solid #1a1a1a; background: #f7f7f9; color: #1a1a1a; }
+  .mc-contact .mc-status-error { border-left-color: #d9534f; }
+  .mc-contact .mc-status a { white-space: nowrap; }
+</style>
+
+<script>
+(function () {
+  var form = document.getElementById("mc-contact-form");
+  if (!form) return;
+
+  var MAX_GUESTS = 5; // adults + children; the infant is not counted
+  var DAY = 86400000;
+
+  function field(name) { return form.elements.namedItem(name); }
+  function part(name) { return form.querySelector('[data-mc="' + name + '"]'); }
+
+  var controls = Array.prototype.slice.call(form.querySelectorAll(".form-control, .form-select"));
+  var checkIn = field("check_in"), checkOut = field("check_out");
+  var adults = field("adults"), children = field("children");
+  var button = form.querySelector('button[type="submit"]');
+  var buttonLabel = button.textContent;
+  var subject = field("subject").value;
+
+  // The messages under the fields replace the browser's own pop-ups
+  form.noValidate = true;
+
+  // Show or clear the red state and message of one field; returns true if it is invalid
+  function mark(control) {
+    var invalid = !control.validity.valid;
+    control.classList.toggle("is-invalid", invalid);
+    control.setAttribute("aria-invalid", invalid);
+    return invalid;
+  }
+
+  // ---- Dates: no past check-in, check-out at least one night later -------
+  function toUTC(iso) { var p = iso.split("-"); return Date.UTC(+p[0], p[1] - 1, +p[2]); }
+  function toISO(ms) { return new Date(ms).toISOString().slice(0, 10); }
+  function dayMonthYear(iso) { return iso.split("-").reverse().join("."); }
+
+  var now = new Date();
+  var today = toISO(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
+  checkIn.min = today;
+  checkIn.max = checkOut.max = (now.getFullYear() + 3) + "-12-31";
+
+  function syncDates() {
+    var arrival = checkIn.value, departure = checkOut.value;
+    checkOut.min = toISO(toUTC(arrival || today) + DAY);
+    var nights = arrival && departure ? Math.round((toUTC(departure) - toUTC(arrival)) / DAY) : 0;
+    field("nights").value = nights > 0 ? nights : "";
+    part("nights").textContent = nights > 0 ? nights + " " + (nights === 1 ? form.dataset.night : form.dataset.nights) : "";
+    if (arrival && departure) mark(checkOut);
+  }
+
+  // ---- Guests: adults + children within the capacity ---------------------
+  function syncGuests() {
+    var tooMany = Number(adults.value) + Number(children.value) > MAX_GUESTS;
+    [adults, children].forEach(function (select) {
+      select.setCustomValidity(tooMany ? "too many guests" : "");
+      mark(select);
+    });
+    part("guests-error").classList.toggle("d-block", tooMany);
+  }
+
+  function refresh(event) {
+    syncDates();
+    syncGuests();
+    if (event.target.classList.contains("is-invalid")) mark(event.target);
+  }
+  form.addEventListener("input", refresh);
+  form.addEventListener("change", refresh);
+
+  // Check a field when the visitor leaves it, once something has been entered
+  form.addEventListener("focusout", function (event) {
+    if (controls.indexOf(event.target) > -1 && event.target.value) mark(event.target);
+  });
+
+  syncDates();
+  syncGuests();
+
+  // ---- Sending ------------------------------------------------------------
+  function busy(on) {
+    button.disabled = on;
+    button.textContent = on ? form.dataset.sending : buttonLabel;
+  }
+
+  function showError() {
+    var box = part("error");
+    box.classList.remove("d-none");
+    box.scrollIntoView({ block: "nearest" });
+  }
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    syncDates();
+    syncGuests();
+    part("error").classList.add("d-none");
+
+    var invalid = controls.filter(mark);
+    if (invalid.length) {
+      invalid[0].focus();
+      invalid[0].scrollIntoView({ block: "center" }); // clear of the fixed navigation bar
+      return;
+    }
+
+    var data = {};
+    new FormData(form).forEach(function (value, key) { data[key] = value; });
+    delete data.redirect; // only used when JavaScript is switched off
+    data.subject = subject + ": " + dayMonthYear(data.check_in) + " - " + dayMonthYear(data.check_out) + ", " + data.name;
+
+    if (!data.access_key || data.access_key.indexOf("YOUR_ACCESS_KEY") > -1) {
+      console.warn("Contact form: add your Web3Forms access key at the top of contact.qmd.");
+      showError();
+      return;
+    }
+
+    busy(true);
+    var abort = window.AbortController ? new AbortController() : null;
+    var timer = setTimeout(function () { if (abort) abort.abort(); }, 20000);
+
+    fetch(form.action, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify(data),
+      signal: abort ? abort.signal : undefined
+    })
+      .then(function (response) {
+        return response.json().then(function (reply) {
+          if (!response.ok || !reply.success) throw new Error("HTTP " + response.status + " " + JSON.stringify(reply));
+        });
+      })
+      .then(function () {
+        form.reset();
+        form.querySelector(".mc-fields").classList.add("d-none");
+        var sent = part("success");
+        sent.classList.remove("d-none");
+        sent.focus();
+      })
+      .catch(function (error) {
+        console.error("Contact form:", error);
+        showError();
+      })
+      .then(function () {
+        clearTimeout(timer);
+        busy(false);
+      });
+  });
+})();
+</script>
+```
