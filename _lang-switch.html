@@ -1,0 +1,12 @@
+<script>
+  // Language switch: open the same page in the other language
+  (function () {
+    var page = window.location.pathname.split("/").pop() || "index.html";
+    var onFrench = document.documentElement.lang === "fr";
+    document.querySelectorAll(".navbar .dropdown-item").forEach(function (link) {
+      var toFrench = /fr\//.test(link.getAttribute("href"));
+      if (toFrench) link.href = onFrench ? page : "fr/" + page;
+      else link.href = onFrench ? "../" + page : page;
+    });
+  })();
+</script>

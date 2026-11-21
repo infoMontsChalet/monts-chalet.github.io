@@ -9,3 +9,7 @@ profile:
   default: en
   group:
     - [def, en, fr]
+
+format:
+  html:
+    include-after-body: _lang-switch.html
